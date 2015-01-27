@@ -1,0 +1,79 @@
+Choix des composants:
+
+Le microcontrôleur: 
+
+Critère de choix:
+au moins 32 Kb de mémoire 
+1 cycle avec mise a jours de 5*50 sorties = 1200 cycle horloge (fcy77 
+
+Nombres d’entrées sorties et type:
+50 / 8 + 5  = 7 bascules + 5 sorties
+2 pin liaison série (wifi)
+2 pin liaison série (bluetooth)
+1 bouton ON/OFF
+ 2 registre a décalage 
+
+Choix des LED:
+la puissance lumineuse 
+être bicolor 
+le prix 
+angle de vision
+led traversante
+
+led  
+
+
+Référence
+Angle de vision
+Puissance lumineuse
+Courant
+Tension Vf
+http://fr.farnell.com/kingbright/l-59egw/led-bi-col-5-mm-red-grn-3-pins/dp/2001770
+60°
+100 mcd 
+25 mA
+30 mA
+2.2 V 
+2 V
+http://fr.farnell.com/kingbright/l-93wsurkcgkc/led-3mm-ultra-red-vert/dp/2148798
+50°
+900 mcd
+1,5 cd
+30 mA
+1,95 V
+2,1 V
+http://fr.farnell.com/kingbright/l-59surkcgkw/led-red-grn-200-180mcd-th/dp/2449761
+60°
+200 mcd
+180 mcd
+20 mA
+1,95 V
+2,1 V
+
+
+module wifi: 
+
+RN171: 
+
+http://fr.farnell.com/microchip/rn171xvs-i-rm/module-wifi-802-15-4-drop-in-w/dp/2144012
+
+avantage:
+“simplicité” de mise en oeuvre et si le microcontroleur final choisis est un pic, une documentation technique
+Il ce configure et fonctionne en UART
+Composant traversant !!!!!! pas de CMS
+
+
+Bluetooth 
+
+RN 41: 
+
+http://fr.farnell.com/microchip/rn41xvc-i-rm/module-bt-802-15-1-xv-cl1-chip/dp/2321371
+
+Mêmes avantages que le RN171 en wifi ! 
+
+Registre a décalage 
+
+ 74HC595:
+
+registre à décalage classique composé de diode schottky -> rapide 
+
